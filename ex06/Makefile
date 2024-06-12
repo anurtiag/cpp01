@@ -5,15 +5,15 @@
 #                                                     +:+ +:+         +:+      #
 #    By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/06/11 10:19:06 by anurtiag          #+#    #+#              #
-#    Updated: 2024/06/12 11:10:36 by anurtiag         ###   ########.fr        #
+#    Created: 2024/06/12 11:10:27 by anurtiag          #+#    #+#              #
+#    Updated: 2024/06/12 12:07:39 by anurtiag         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME			=	replace
+NAME			=	harlFilter
 
 
-SRCS			=	main.cpp
+SRCS			=	main.cpp Harl.cpp
 
 OBJ				=	$(SRCS:.cpp=.o)
 
