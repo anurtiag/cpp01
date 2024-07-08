@@ -6,7 +6,7 @@
 #    By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/08 07:37:07 by kali              #+#    #+#              #
-#    Updated: 2024/06/11 09:46:46 by anurtiag         ###   ########.fr        #
+#    Updated: 2024/07/08 15:24:23 by anurtiag         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,6 +33,9 @@ all:			$(NAME)
 
 $(NAME):		$(OBJ)
 				@$(CC) $(CFLAGS) $(OBJ) $(LIBS) -o $(NAME)
+
+%.o:			%.cpp
+				$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 				@$(RM) $(OBJ)

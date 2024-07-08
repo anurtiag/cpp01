@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kali <kali@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/08 04:41:00 by kali              #+#    #+#             */
-/*   Updated: 2024/06/08 06:31:22 by kali             ###   ########.fr       */
+/*   Updated: 2024/07/08 15:18:46 by anurtiag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <iostream>
 
 
-//class
 class Zombie
 {
 private:
@@ -27,9 +26,9 @@ public:
     void announce(void);
     Zombie(std::string name);
     Zombie();
+    ~Zombie();
 };
 
-//functions
 Zombie *zombieHorde(int N, std::string name);
 
 #endif

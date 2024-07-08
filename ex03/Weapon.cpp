@@ -6,21 +6,20 @@
 /*   By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/10 10:04:30 by anurtiag          #+#    #+#             */
-/*   Updated: 2024/06/10 11:11:42 by anurtiag         ###   ########.fr       */
+/*   Updated: 2024/07/08 16:12:41 by anurtiag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
 
-const std::string& Weapon::getType()
+std::string Weapon::getType()
 {
-    const std::string &typeref = type;
-    return(typeref);
+    return(this->type);
 }
 
 void Weapon::setType(std::string newtype)
 {
-    type = newtype;
+    this->type = newtype;
 }
 
 Weapon::Weapon(std::string type)

@@ -6,7 +6,7 @@
 /*   By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/11 10:19:21 by anurtiag          #+#    #+#             */
-/*   Updated: 2024/06/12 09:40:16 by anurtiag         ###   ########.fr       */
+/*   Updated: 2024/07/08 11:23:30 by anurtiag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,20 +78,3 @@ int main(int argc, char **argv)
 	return(0);
 }
 
-// int main(int argc, char **argv)
-// {
-// 	std::string text;
-// 	std::string filename = argv[1];
-// 	std::string s1 = argv[2];
-// 	std::string s2 = argv[3];
-// 	if(!(argc == 4 && !(s1.empty() && s2.empty() && filename.empty())))
-// 	{
-// 		std::cerr << "Bad arguments :(" << std::endl;
-// 		return (1);
-// 	}
-// 	text = ft_read(filename);
-// 	if(text.empty())
-// 		return(1);
-// 	ft_replace(filename,text, s1, s2);
-// 	return(0);
-// }

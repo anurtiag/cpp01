@@ -6,7 +6,7 @@
 /*   By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 15:32:02 by anurtiag          #+#    #+#             */
-/*   Updated: 2024/06/07 15:53:19 by anurtiag         ###   ########.fr       */
+/*   Updated: 2024/07/08 13:42:37 by anurtiag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,6 @@ int main(void)
     std::cout << "Please introduce another name: " << std::endl;
     std::cin >> name;
     randomChump(name);
+    delete zombie;
     return(0);
 }

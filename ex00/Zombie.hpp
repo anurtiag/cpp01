@@ -6,7 +6,7 @@
 /*   By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 14:56:56 by anurtiag          #+#    #+#             */
-/*   Updated: 2024/06/07 15:51:01 by anurtiag         ###   ########.fr       */
+/*   Updated: 2024/07/08 13:44:26 by anurtiag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <iostream>
 
 
-//class
 class Zombie
 {
 private:
@@ -26,9 +25,9 @@ private:
 public:
     void announce(void);
     Zombie(std::string name);
+    ~Zombie();
 };
 
-//functions
 void randomChump(std::string name);
 Zombie *newZombie(std::string name);
 

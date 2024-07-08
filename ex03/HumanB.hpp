@@ -6,7 +6,7 @@
 /*   By: anurtiag <anurtiag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/10 12:54:56 by anurtiag          #+#    #+#             */
-/*   Updated: 2024/06/11 10:14:49 by anurtiag         ###   ########.fr       */
+/*   Updated: 2024/07/08 16:49:40 by anurtiag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,8 @@ class HumanB
         Weapon *w;
         HumanB(std::string name);
         void attack();
-        void setWeapon(Weapon *w);
+        void setWeapon(Weapon &new_weapon);
+        ~HumanB();
 };
 
 #endif
